@@ -1,73 +1,5 @@
 
-/*.navCaja {
-  display: flex;
-  position: relative; 
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 11%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color:c1da99;
-
-}
-
-.logoImagen {
-  flex: 1; 
-  width: 80%;
-  max-width: 100%; 
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.logoImagen > img {
-  
-  object-fit: fill; 
-  height: auto;
-  width:20%;
-}
-
-.BanderasGroup{
-      display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-start;
-    
-    overflow: false;
-    width: 100%;
-    height: 5vh;
-
-    flex-direction: row;
-
-}
-.BanederaImagen > img{
-  width: 100%;
-  height: 100%;
-
-  border-radius: 8px;
-  object-fit: cover;
-  transform: translate(0%, -50%);
-
-}
-
-.Bandera{
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 100%;
-  height: 100%;
-  border-right: 1px solid #ddf1bc;
-  border-left: 1px solid #ddf1bc;
-  margin-bottom: 70px;
-
-}*/
+/**/
 body{
   margin: 0px;
   background-color: #FCFFDF;
@@ -88,9 +20,6 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
-  
-  
-
 
 }
 .LogoColor{
@@ -148,30 +77,15 @@ body{
   gap: 5px;
   padding: 2.5px 0;
   text-align: center;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
   background-color: #2e7d32;
   color: #d0f0c0;
+  align-items: center;
+  align-content: center;
   flex-direction: row;
   width: 50%;
   border-radius: 0px 0px 10px 10px;
 }
 
-.station {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 0.5;
-  /*margin-right: 5%;
-  margin-left: 5%;*/
-
-}
-
-.station-img {
-  align-self: center;
-  width: 51px;
-  aspect-ratio: 1.41;
-}
 
 .station-name {
   margin-top: 1.5px;
@@ -194,14 +108,6 @@ body{
   aspect-ratio: 1.75;
 }
 
-.stations {
-  display: flex;
-  gap: 5px;
-  padding: 2.5px 0;
-  text-align: center;
-  background-color: #2e7d32;
-  color: #d0f0c0;
-}
 
 .station {
   display: flex;
@@ -288,19 +194,3 @@ body{
   aspect-ratio: 1.25;
 }
 
-.averages {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: stretch;
-  margin-top: 8rem;
-  width: 100%;
-  text-align: center;
-  color: #2e7d32;
-  background-color: #d0f0c0;
-  opacity: 0.5;
-}
-
-.averages-content {
-  padding: 1rem 4rem;
-}
